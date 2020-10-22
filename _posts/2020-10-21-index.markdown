@@ -5,6 +5,11 @@ date:   2020-10-21 20:55:02 +0100
 categories: jekyll update
 ---
 
-### title
-hello
+# my first blog post
+hello, welcome to zhong's blog.
+
+this is my first blog post.
+
+in my blog, i'm going to show some of my collections.
+
 > try a new format
