@@ -5,11 +5,44 @@ date:   2020-10-21 20:55:02 +0100
 categories: jekyll update
 ---
 
-# my first blog post
-hello, welcome to zhong's blog.
+Hello, welcome to my blog.
 
-this is my first blog post.
+This is my first blog post.
 
-in my blog, i'm going to show some of my collections.
+In my blog, I'm going to show some of my ***collections***.
 
-> try a new format
+# My Photos {#myid}
+1. China
+![the Great Wall](\media\china.jpg)
+
+2. Japan
+![Fuji](\media\japan.jpg)
+[Find More!](https://www.japan.travel/en/)
+[click me](#myid)
+
+3. United Kingdom
+![UK](\media\london.jpg)
+
+Try this `code`.
+
+``Use `code` in your Markdown file.``
+
+    <html>
+      <head>
+      </head>
+    </html>
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote] 
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+
+- [X] Go to China.
+- [ ] Go to Japan.
