@@ -1,0 +1,19 @@
+---
+layout: page
+title: Chinese Art
+---
+
+{% for artist in site.data.artists %}
+  {% for i in (1..3) %}
+    <p>{{ artist.ChineseName }}</p>
+    <img src = "/media/china-artworks/{{ artist.EnglishName | replace: ' ', '_' | append: '_' | append: artist.ChineseName }}/{{ artist.EnglishName | replace: ' ', '_' | append: '_0' | append: i }}.jpg"
+  {% endfor %}
+{% endfor %}
+
+
+<!--
+    {% for artist in site.data.artists %}
+      <p>{{ artist.ChineseName }}</p>
+      <img src = "/media/china-artworks/{{ artist.EnglishName | replace: ' ', '_' | append: '_' | append: artist.ChineseName }}/{{ artist.EnglishName | replace: ' ', '_' | append: '_' | append: '01' }}.jpg"
+    {% endfor %}
+-->
